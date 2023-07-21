@@ -1,4 +1,5 @@
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
+# HooBank - Modern UI/UX website 
+Build with React.js & Tailwind CSS
 
 Demo Link --> [ https://modern-bank-finance.netlify.app/ ]
 
