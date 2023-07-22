@@ -4,7 +4,7 @@ import { quotes } from '../assets'
 const FeedbackCard = ({ content, img, title, name }) => (
   <div className='text-white flex flex-col justify-between px-10 py-12 rounded-[20px] max-w-[370px]
         mr-0 md:mr-10 sm:mr-5 my-5 feedback-card'>
-    <img src={quotes} className='w-[42.6px] h-[27.6px] ' />
+    <img src={quotes} className='w-[42.6px] h-[27.6px] ' alt={quotes}/>
     <p className='font-poppins font-normal text-[18px] leading-[32.4px] my-10'>
       {content}
     </p>

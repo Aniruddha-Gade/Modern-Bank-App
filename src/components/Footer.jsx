@@ -31,7 +31,7 @@ const Footer = () => {
                     footerLink.links.map((link, index) => (
                       <li key={link.name}
                         className={`text-[16px] leading-[24px] font-normal text-dimWhite hover:text-secondary 
-                        cursor-pointer duration-300 ${index != footerLink.links.length - 1 ? 'mb-3' : 'mb-0'}`}>
+                        cursor-pointer duration-300 ${index !== footerLink.links.length - 1 ? 'mb-3' : 'mb-0'}`}>
                         {link.name}</li>
                     ))
                   }
